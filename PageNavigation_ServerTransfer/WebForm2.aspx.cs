@@ -14,6 +14,8 @@ namespace PageNavigation_ServerTransfer
             System.Collections.Specialized.NameValueCollection previousFormCollections = Request.Form;
             lblName.Text = previousFormCollections["txtName"];
             lblEmail.Text = previousFormCollections["txtEmail"];
+
+            
         }
     }
 }
